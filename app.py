@@ -2,6 +2,8 @@ import streamlit as st
 import pickle as pk
 import pandas as pd
 
+!pip install scikit-learn
+
 pipe = pk.load(open('file.pkl', 'rb'))
 
 teams = ['Sunrisers Hyderabad',
